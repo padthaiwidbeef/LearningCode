@@ -32,7 +32,18 @@ public class PracticeQuestions {
 			}
 			System.out.println(answer);
 		}
-		
+		public static void printPatternNestedLoop() {
+			String star = "*";
+			String zero = "0";
+			String fullString = "";
+			for(int i = 1; i <= 5; i++){
+				for(int j = 0; j < i; j++){
+					fullString += star;
+				}
+				System.out.println(fullString);
+				fullString = "";
+			}
+		}
 		
 			
 }
